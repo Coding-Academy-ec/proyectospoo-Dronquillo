@@ -16,3 +16,5 @@ class Transaccion:
 
     def __str__(self):
         return f"Transacción: Usuario: {self.usuario.nombre}, Libro: {self.libro.titulo}, Fecha de Préstamo: {self.fecha_prestamo}"
+
+#Proc

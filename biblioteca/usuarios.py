@@ -1,4 +1,4 @@
-# Archivo: biblioteca/usuarios.py
+# Archivo: biblioteca/usuarios llamar
 
 class Usuario:
     def __init__(self, id_usuario, nombre):

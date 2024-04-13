@@ -5,16 +5,16 @@ from sistema_bancario.transacciones.transaccion import Transaccion
 
 def main():
     # Crear clientes
-    cliente1 = Cliente("Alice", "123 Main St", 1000)
-    cliente2 = Cliente("Bob", "456 Elm St", 2000)
+    cliente1 = Cliente("Karen", "1250 Av Esmeraldas", 1000)
+    cliente2 = Cliente("Alex", "450 Calle Primera", 2000)
 
     # Crear empleados
-    empleado1 = Empleado("Eva", "Gerente", 5000)
-    empleado2 = Empleado("Alex", "Cajero", 3000)
+    empleado1 = Empleado("Nathaly", "Gerente", 5000)
+    empleado2 = Empleado("Joseph", "Cajero", 2500)
 
     # Realizar transacciones
-    transaccion1 = Transaccion(cliente1.nombre, cliente2.nombre, 500)
-    transaccion2 = Transaccion(empleado2.nombre, cliente1.nombre, 200)
+    transaccion1 = Transaccion(cliente1.nombre, cliente2.nombre, 600)
+    transaccion2 = Transaccion(empleado2.nombre, cliente1.nombre, 350)
 
     # Mostrar detalles de las transacciones
     print("Transacciones realizadas:")

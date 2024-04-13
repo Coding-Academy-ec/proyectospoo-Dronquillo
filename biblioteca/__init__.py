@@ -8,12 +8,12 @@ from .transacciones import Transaccion
 # Punto de entrada del programa
 def main():
     # Crear algunos libros
-    libro1 = Libro("1234567890", "Python Programming", "Guido van Rossum")
-    libro2 = Libro("0987654321", "Clean Code", "Robert C. Martin")
+    libro1 = Libro("ISBN-04-11", "Python El Viaje", "Dario Ronquillo")
+    libro2 = Libro("ISBN-06-01", "Codigo Alfa", "Dj Ron")
 
     # Crear algunos usuarios
-    usuario1 = Usuario("1001", "Alice")
-    usuario2 = Usuario("1002", "Bob")
+    usuario1 = Usuario("1001", "Geo")
+    usuario2 = Usuario("1002", "Dan")
 
     # Realizar algunas transacciones
     transaccion1 = Transaccion(usuario1, libro1)
